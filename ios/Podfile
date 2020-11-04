@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'MTS' do
+target 'MeatTheSea' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'MTSTests' do
+  target 'MeatTheSeaTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'MTS' do
   end
 end
 
-target 'MTS-tvOS' do
-  # Pods for MTS-tvOS
+target 'MeatTheSea-tvOS' do
+  # Pods for MeatTheSea-tvOS
 
-  target 'MTS-tvOSTests' do
+  target 'MeatTheSea-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

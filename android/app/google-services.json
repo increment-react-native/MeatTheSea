@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "516917896543",
+    "firebase_url": "https://meatthesea-9a362.firebaseio.com",
+    "project_id": "meatthesea-9a362",
+    "storage_bucket": "meatthesea-9a362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516917896543:android:a547ab358f2de9b0c342ea",
+        "android_client_info": {
+          "package_name": "com.meatthesea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516917896543-41ebd25nvh28822k7lh98c3qlf60si08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XUqLGnsx1tgA5wxOCBXhiOTfZYr6WEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516917896543-41ebd25nvh28822k7lh98c3qlf60si08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
