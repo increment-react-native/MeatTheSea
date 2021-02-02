@@ -1,35 +1,42 @@
 {
   "project_info": {
-    "project_number": "516917896543",
-    "firebase_url": "https://meatthesea-9a362.firebaseio.com",
-    "project_id": "meatthesea-9a362",
-    "storage_bucket": "meatthesea-9a362.appspot.com"
+    "project_number": "1062131230146",
+    "firebase_url": "https://meatthesea-b7855.firebaseio.com",
+    "project_id": "meatthesea-b7855",
+    "storage_bucket": "meatthesea-b7855.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:516917896543:android:a547ab358f2de9b0c342ea",
+        "mobilesdk_app_id": "1:1062131230146:android:335a8a6efcd02afc03a25b",
         "android_client_info": {
-          "package_name": "com.meatthesea"
+          "package_name": "com.gukodigital.meatthesea"
         }
       },
       "oauth_client": [
         {
-          "client_id": "516917896543-41ebd25nvh28822k7lh98c3qlf60si08.apps.googleusercontent.com",
+          "client_id": "1062131230146-l7pbdih81utvcr3budieqcf3i4mnum4b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC8XUqLGnsx1tgA5wxOCBXhiOTfZYr6WEE"
+          "current_key": "AIzaSyA2yRy3cdpq3RWmhXs-hxZy63DQdoP4f48"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "516917896543-41ebd25nvh28822k7lh98c3qlf60si08.apps.googleusercontent.com",
+              "client_id": "1062131230146-l7pbdih81utvcr3budieqcf3i4mnum4b.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1062131230146-mcaprtdeaifg33cb248uip09hfpd00a3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gukodigital.meatthesea"
+              }
             }
           ]
         }

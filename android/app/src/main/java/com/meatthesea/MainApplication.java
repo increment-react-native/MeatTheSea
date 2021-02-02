@@ -1,4 +1,4 @@
-package com.meatthesea;
+package com.gukodigital.meatthesea;
 
 import android.app.Application;
 import android.content.Context;
