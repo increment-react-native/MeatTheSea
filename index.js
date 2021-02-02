@@ -20,4 +20,4 @@ function HeadlessCheck({ isHeadless }) {
   return <App />;
 }
 
-AppRegistry.registerComponent('app', () => HeadlessCheck);
+AppRegistry.registerComponent(appName, () => HeadlessCheck);

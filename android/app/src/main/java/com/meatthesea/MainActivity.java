@@ -1,4 +1,4 @@
-package com.gukodigital.meatthesea;
+package com.meatthesea;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

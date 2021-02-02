@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1062131230146:android:335a8a6efcd02afc03a25b",
+        "mobilesdk_app_id": "1:1062131230146:android:8db632229f263afe03a25b",
         "android_client_info": {
-          "package_name": "com.gukodigital.meatthesea"
+          "package_name": "com.meatthesea"
         }
       },
       "oauth_client": [
