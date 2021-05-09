@@ -132,8 +132,8 @@ android {
         applicationId "com.meatthesea"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 16
-        versionName "1.16"
+        versionCode 17
+        versionName "1.17"
         missingDimensionStrategy 'react-native-camera', 'general'
         multiDexEnabled true
     }
