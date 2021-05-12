@@ -19,7 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* MeatTheSeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MeatTheSeaTests.m */; };
 		315CFE8B5B59BF2D4F1FF26C /* libPods-MeatTheSea-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98980C5D7217527B613DE6 /* libPods-MeatTheSea-tvOSTests.a */; };
 		52526A3125C973BA00B29F65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52526A3025C973B900B29F65 /* GoogleService-Info.plist */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		52A25ACF264986DE00472171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A25ACE264986DE00472171 /* LaunchScreen.storyboard */; };
 		FDF06373E0A981F80CA3399E /* libPods-MeatTheSea-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7909FAB90201A40861B8634D /* libPods-MeatTheSea-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -58,9 +58,9 @@
 		2D02E4901E0B4A5D006451C7 /* MeatTheSea-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeatTheSea-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35ED6A74E6AE374AE50E551C /* Pods-MeatTheSea-MeatTheSeaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeatTheSea-MeatTheSeaTests.debug.xcconfig"; path = "Target Support Files/Pods-MeatTheSea-MeatTheSeaTests/Pods-MeatTheSea-MeatTheSeaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		52526A3025C973B900B29F65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52A25ACE264986DE00472171 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		664D0DC8703F51DA55DDE332 /* Pods-MeatTheSea-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeatTheSea-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MeatTheSea-tvOS/Pods-MeatTheSea-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7909FAB90201A40861B8634D /* libPods-MeatTheSea-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeatTheSea-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MeatTheSea/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B107B801FF88A9A014D3BB /* Pods-MeatTheSea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeatTheSea.debug.xcconfig"; path = "Target Support Files/Pods-MeatTheSea/Pods-MeatTheSea.debug.xcconfig"; sourceTree = "<group>"; };
 		89E2F7C5537710CE3DE9BB30 /* Pods-MeatTheSea-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeatTheSea-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MeatTheSea-tvOS/Pods-MeatTheSea-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8A98980C5D7217527B613DE6 /* libPods-MeatTheSea-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeatTheSea-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,10 +130,10 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				52A25ACE264986DE00472171 /* LaunchScreen.storyboard */,
 				52526A3025C973B900B29F65 /* GoogleService-Info.plist */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = MeatTheSea;
@@ -344,7 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				52A25ACF264986DE00472171 /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				52526A3125C973BA00B29F65 /* GoogleService-Info.plist in Resources */,
 			);
