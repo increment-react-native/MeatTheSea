@@ -7,6 +7,7 @@ import AppNavigation from 'navigation';
 import { createAppContainer } from 'react-navigation';
 import AsyncStorage from '@react-native-community/async-storage';
 import { Helper } from 'common';
+import Whatsapp from 'modules/generic/whatsapp'
 const AppContainer = createAppContainer(AppNavigation);
 
 function ReduxNavigation (props) {
@@ -41,6 +42,7 @@ export default class App extends React.Component{
             backgroundColor: '#ffffff'
           }}>
             <AppReduxNavigation />
+            <Whatsapp />
         </View>
       </Provider>
     );
