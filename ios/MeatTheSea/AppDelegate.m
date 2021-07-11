@@ -8,6 +8,7 @@
 #import <RNCPushNotificationIOS.h>
 #import "RNFBMessagingModule.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <React/RCTLinkingManager.h>
 
 
 #ifdef FB_SONARKIT_ENABLED
@@ -100,5 +101,12 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 -(void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler
 {
   completionHandler(UNNotificationPresentationOptionSound | UNNotificationPresentationOptionAlert | UNNotificationPresentationOptionBadge);
+}
+
+- (BOOL)application:(UIApplication *)application
+   openURL:(NSURL *)url
+   options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+  return [RCTLinkingManager application:application openURL:url options:options];
 }
 @end
