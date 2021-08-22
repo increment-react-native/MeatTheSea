@@ -21,6 +21,7 @@
 		52526A3125C973BA00B29F65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52526A3025C973B900B29F65 /* GoogleService-Info.plist */; };
 		5263A2CA264C3C2500706361 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263A2C9264C3C2500706361 /* File.swift */; };
 		52A25ACF264986DE00472171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A25ACE264986DE00472171 /* LaunchScreen.storyboard */; };
+		B0257C4626D27E17002F49AE /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		FDF06373E0A981F80CA3399E /* libPods-MeatTheSea-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7909FAB90201A40861B8634D /* libPods-MeatTheSea-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -349,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0257C4626D27E17002F49AE /* main.jsbundle in Resources */,
 				52A25ACF264986DE00472171 /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				52526A3125C973BA00B29F65 /* GoogleService-Info.plist in Resources */,
@@ -682,12 +684,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 68;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_TEAM = QZW8TLN78F;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MeatTheSea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 6.8;
+				MARKETING_VERSION = 6.9;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -708,11 +710,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 68;
+				CURRENT_PROJECT_VERSION = 69;
 				DEVELOPMENT_TEAM = QZW8TLN78F;
 				INFOPLIST_FILE = MeatTheSea/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 6.8;
+				MARKETING_VERSION = 6.9;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
